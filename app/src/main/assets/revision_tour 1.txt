@@ -1,0 +1,24 @@
+QUESTION:How can we use fabs function in python?
+1. importing maths module
+2. fabs module
+3. maths library
+4. builtin function
+CORRECT OPTION:1
+QUESTION:what is token?
+1. smallest individual unit of python program
+2. largest unit
+3. string
+4. Integer
+CORRECT OPTION:1
+QUESTION:What does 0 meant in python?
+1. Represent: True
+2. Represent: False
+3. It is String having value "0"
+4. None Of the Above
+CORRECT OPTION:2
+QUESTION:Is What does '0' means  interpreter?
+1. Represent: True
+2. Represent: False
+3. It is a special symbol which have special meaning to interpreter
+4. None Of The Above
+CORRECT OPTION:1

@@ -1,0 +1,18 @@
+QUESTION:MODULE IS A COLLECTION OF ______________
+1. PACKAGE
+2. FUNCTIONS
+3. INTEGERS
+4. LIBRARY
+CORRECT OPTION:2
+QUESTION:randrange function of random module returns________typevalue from _________to __________.
+1. int
+2. int,start,end-1
+3. int,start,end
+4. float,start,end-1
+CORRECT OPTION:2
+QUESTION:WHAT DOES rb+ reppresent ?
+1. read and write
+2. write and then read
+3. READ AND THEN WRITE IN BINARY FILE
+4. READ FROM BINARY FILE
+CORRECT OPTION:3

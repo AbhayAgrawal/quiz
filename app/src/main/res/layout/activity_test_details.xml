@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestDetails">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:subtitle="@string/select_test"
+            app:title="@string/app_name2" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="70sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginBottom="20sp"
+                    android:gravity="center"
+                    android:text="@string/test_details_label"
+                    android:textColor="#020202"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <Spinner
+                    android:id="@+id/test_names"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginRight="20sp"
+                    android:contentDescription="@string/select_test"
+                    android:dropDownSelector="#A96FF1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/label_test_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="160sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginRight="20sp"
+                    android:gravity="center"
+                    android:textColor="#041B8A"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="40sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginRight="20sp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:gravity="center"
+                    android:onClick="continueTest"
+                    android:text="@string/continue_to_test"
+                    android:textColor="#0F0380"
+                    android:textStyle="bold|italic"
+                    app:chipSurfaceColor="#16FD06"
+                    app:textEndPadding="20sp"
+                    app:textStartPadding="20sp" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginRight="20sp"
+                    android:gravity="center"
+                    android:onClick="cancelTest"
+                    android:text="@string/cancel_test"
+                    android:textColor="#FDFCFC"
+                    android:textSize="16sp"
+                    app:chipSurfaceColor="#CF0404" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="100sp"
+                    android:layout_marginEnd="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginBottom="15sp"
+                    android:text="@string/power_company" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

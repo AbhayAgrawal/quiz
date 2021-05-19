@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">quiz</string>
+    <string name="photo_text">Abhay Agrawal</string>
+    <string name="power_company">Powered By -> Abhay Agrawal</string>
+    <string name="heading_intro">Welcome This Is Test Taking App</string>
+    <string name="take_test_label">Test Yourself By Attempting The Test</string>
+    <string name="build_name">Build By -> Abhay Agrawal</string>
+    <string name="take_test">Take Test</string>
+    <string name="app_name2">QUIZ</string>
+    <string name="submit">SUBMIT AND NEXT</string>
+    <string name="cancel_test"> CANCEL TEST</string>
+    <string name="congratulate"> CONGRATULATIONS!</string>
+    <string name="test_complete_message">YOU HAVE SUCCESSFULLY COMPLETED YOUR TEST</string>
+    <string name="home_page_return">RETURN - HOME PAGE</string>
+    <string name="test_details_label">SELECT TEST FROM THE DROP DOWN MENU TO CONTINUE </string>
+    <string name="select_test">SELECT TEST</string>
+    <string name="continue_to_test">CONTINUE TO TEST</string>
+    <string name="progress">Your Progress</string>
+
+
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".takeTest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar3"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#EA3434"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:subtitle="@string/take_test"
+            app:title="@string/app_name2"
+            app:titleMarginBottom="10dp"
+            app:titleMarginStart="20dp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_cancel"
+                    android:layout_width="184dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10sp"
+                    android:onClick="cancelTest"
+                    android:text="@string/cancel_test"
+                    android:textStyle="bold"
+                    app:backgroundTint="#F80202" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="481dp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:orientation="vertical">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fillViewport="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/question"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginBottom="20sp"
+                                android:text="textView" />
+
+                            <RadioGroup
+                                android:id="@+id/opGroup"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <RadioButton
+                                    android:id="@+id/op1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10sp"
+                                    android:tag="1"
+                                    android:text="RadioButton" />
+
+                                <RadioButton
+                                    android:id="@+id/op2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10sp"
+                                    android:tag="2"
+                                    android:text="RadioButton" />
+
+                                <RadioButton
+                                    android:id="@+id/op3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10sp"
+                                    android:tag="3"
+                                    android:text="RadioButton" />
+
+                                <RadioButton
+                                    android:id="@+id/op4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10sp"
+                                    android:tag="4"
+                                    android:text="RadioButton" />
+
+                                <RadioButton
+                                    android:id="@+id/op5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10sp"
+                                    android:tag="5"
+                                    android:text="RadioButton" />
+
+                            </RadioGroup>
+                        </LinearLayout>
+                    </androidx.core.widget.NestedScrollView>
+
+
+                </LinearLayout>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/submit"
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30sp"
+                    android:onClick="submitAndNext"
+                    android:text="@string/submit"
+                    android:textColor="#FBFAFA"
+                    android:textStyle="bold"
+                    app:chipSurfaceColor="#249A05"
+                    app:textStartPadding="25dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="70sp"
+                    android:layout_marginBottom="15sp"
+                    android:text="@string/power_company" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
