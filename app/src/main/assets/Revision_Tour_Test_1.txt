@@ -1,0 +1,120 @@
+QUESTION:Which of these in not a core data type?
+a) Lists
+b) Dictionary
+c) Tuples
+d) Class
+CORRECT OPTION:4
+QUESTION:Given a function that does not return any value, What value is thrown by default when executed in shell.
+a) int
+b) bool
+c) void
+d) None
+CORRECT OPTION:4
+QUESTION:Following set of commands are executed in shell, what will be the output?\n>>>str="hello"\n>>>str[:2]
+a) he
+b) lo
+c) olleh
+d) hello
+CORRECT OPTION:4
+QUESTION:Which of the following will run without errors?
+a) round(45.8)
+b) round(6352.898,2,5)
+c) round(7463.123,2,1)
+d) round()
+CORRECT OPTION:4
+QUESTION:What is the return type of function id ?
+a) int
+b) float
+c) bool
+d) dict
+CORRECT OPTION:4
+QUESTION:In python we do not specify types,it is directly interpreted by the compiler, so consider the following operation to be performed.\n>>>x = 13 ? 2\nobjective is to make sure x has a integer value, select all that apply (python 3.xx)
+a) x = 13 // 2
+b) x = int(13 / 2)
+c) x = 13 % 2
+d) All of the mentioned
+CORRECT OPTION:4
+QUESTION:What error occurs when you execute?\napple = mango
+a) SyntaxError
+b) NameError
+c) ValueError
+d) TypeError
+CORRECT OPTION:4
+QUESTION:Carefully observe the code and give the answer.\ndef example(a):\n\ta = a + '2'\n\ta = a*2\n\treturn a\n>>>example("hello")
+a) indentation Error
+b) cannot perform mathematical operation on strings
+c) hello2
+d) hello2hello2
+CORRECT OPTION:4
+QUESTION:What data type is the object below ?\nL = [1, 23, ‘hello’, 1].
+a) list
+b) dictionary
+c) array
+d) tuple
+CORRECT OPTION:4
+QUESTION:In order to store values in terms of key and value we use what core data type.
+a) list
+b) tuple
+c) class
+d) dictionary
+CORRECT OPTION:4
+QUESTION:Which of the following results in a SyntaxError ?
+a) ‘”Once upon a time…”, she said.’
+b) “He said, ‘Yes!'”
+c) ‘3\’
+d) ”’That’s okay”’
+CORRECT OPTION:4
+QUESTION:What is the average value of the code that is executed below ?\n\n>>>grade1 = 80\n>>>grade2 = 90\n>>>grade2 = 90
+a) 85
+b) 85.1
+c) 95
+d) 95.1
+CORRECT OPTION:4
+QUESTION:Select all options that print\nhello-how-are-you
+a) print(‘hello’, ‘how’, ‘are’, ‘you’)
+b) print(‘hello’, ‘how’, ‘are’, ‘you’ + ‘-‘ * 4)
+c) print(‘hello-‘ + ‘how-are-you’)
+d) print(‘hello’ + ‘-‘ + ‘how’ + ‘-‘ + ‘are’ + ‘you’)
+CORRECT OPTION:4
+QUESTION:What is the return value of trunc() ?
+a) int
+b) bool
+c) float
+d) None
+CORRECT OPTION:4
+QUESTION:What is the output of print 0.1 + 0.2 == 0.3?
+a) True
+b) False
+c) Machine dependent
+d) Error
+CORRECT OPTION:4
+QUESTION:Which of the following is not a complex number?
+a) k = 2 + 3j
+b) k = complex(2, 3)
+c) k = 2 + 3l
+d) k = 2 + 3J
+CORRECT OPTION:4
+QUESTION:What is the type of inf?
+a) Boolean
+b) Integer
+c) Float
+d) Complex
+CORRECT OPTION:4
+QUESTION:What does ~4 evaluate to?
+a) -5
+b) -4
+c) -3
+d) +3
+CORRECT OPTION:4
+QUESTION:What does ~~~~~~5 evaluate to?
+a) +5
+b) -11
+c) +11
+d) -5
+CORRECT OPTION:4
+QUESTION:Which of the following is incorrect?
+a) x = 0b101
+b) x = 0x4f5
+c) x = 19023
+d) x = 03964
+CORRECT OPTION:4
