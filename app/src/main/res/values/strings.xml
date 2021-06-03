@@ -6,6 +6,10 @@
     <string name="take_test_label">Test Yourself By Attempting The Test</string>
     <string name="build_name">Build By -> Abhay Agrawal</string>
     <string name="take_test">Take Test</string>
+    <string name="marks_details_give">Marking Scheme<br/><br/>
+        +4  - For Correct Answer<br/>
+        +0  - For Didnt Know The Answer<br/>
+        -1  - For  Wrong Answer</string>
     <string name="app_name2">QUIZ</string>
     <string name="submit">SUBMIT AND NEXT</string>
     <string name="cancel_test"> CANCEL TEST</string>
