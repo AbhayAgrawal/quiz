@@ -91,11 +91,10 @@
                     android:layout_marginEnd="20sp"
                     android:layout_marginRight="20sp"
                     android:gravity="center"
-                    android:text="Hello"
-                    android:textColor="#041B8A"
+                    android:text="@string/marks_details_give"
+                    android:textColor="#7134E1"
                     android:textSize="16sp"
-                    android:textStyle="bold"
-                    tools:text="@string/marks_details_give" />
+                    android:textStyle="bold" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/chip6"
