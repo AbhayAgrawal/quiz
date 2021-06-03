@@ -3,3 +3,4 @@ function
 revision_tour 1
 MODULE_BASED
 Revision_Tour_Test_1
+Revision_Tour_Test_2
