@@ -1,0 +1,120 @@
+QUESTION:Which of the following is a Python tuple?
+a) [1, 2, 3].
+b) (1, 2, 3)
+c) {1, 2, 3}
+d) {}
+CORRECT OPTION:2
+QUESTION:Suppose t = (1, 2, 4, 3), which of the following is incorrect?
+a) print(t[3])
+b) t[3] = 45
+c) print(max(t))
+d) print(len(t))
+CORRECT OPTION:2
+QUESTION:What will be the output?\n>>>t=(1,2,4,3)\n>>>t[1:3]
+a) (1, 2)
+b) (1, 2, 4)
+c) (2, 4)
+d) (2, 4, 3)
+CORRECT OPTION:3
+QUESTION:What will be the output?\n>>>t=(1,2,4,3)\n>>>t[1:-1]
+a) (1, 2)
+b) (1, 2, 4)
+c) (2, 4)
+d) (2, 4, 3)
+CORRECT OPTION:3
+QUESTION:What will be the output? \n>>>t = (1, 2, 4, 3, 8, 9) \n>>>[t[i] for i in range(0, len(t), 2)]
+a) [2, 3, 9]
+b) [1, 2, 4, 3, 8, 9]
+c) [1, 4, 8]
+d) (1, 4, 8)
+CORRECT OPTION:3
+QUESTION:What will be the output? \nd = {"john":40, "peter":45} \nd["john"]
+a) 40
+b) 45
+c) “john”
+d) “peter"
+CORRECT OPTION:1
+QUESTION:What will be the output?\n>>>t = (1, 2)\n>>>2 * t
+a) (1, 2, 1, 2)
+b) [1, 2, 1, 2]
+c) (1, 1, 2, 2)
+d) [1, 1, 2, 2]
+CORRECT OPTION:1
+QUESTION:What will be the output? \n>>>t1 = (1, 2, 4, 3) \n>>>t2 = (1, 2, 3, 4) \n>>>t1 < t2
+a) True
+b) False
+c) Error
+d) None
+CORRECT OPTION:2
+QUESTION:What will be the output? \n>>>my_tuple = (1, 2, 3, 4) \n>>>my_tuple.append( (5, 6, 7) ) \n>>>print len(my_tuple)
+a) 1
+b) 2
+c) 5
+d) Error
+CORRECT OPTION:4
+QUESTION:What will be the output?\nnumberGames = {}\nnumberGames[(1,2,4)] = 8 \nnumberGames[(4,2,1)] = 10 \nnumberGames[(1,2)] = 12 \nsum = 0 \nfor k in numberGames:\n\tsum += numberGames[k]\nprint(len(numberGames) + sum)
+a) 30
+b) 24
+c) 33
+d) 12
+CORRECT OPTION:3
+QUESTION:What is the data type of (1)?
+a) Tuple
+b) Integer
+c) List
+d) Both tuple and integer
+CORRECT OPTION:2
+QUESTION:If a=(1,2,3,4), a[1:-1] is
+a) Error, tuple slicing doesn’t exist
+b) [2,3]
+c) (2,3,4)
+d) (2,3)
+CORRECT OPTION:4
+QUESTION:What is the output of the following code? \n>>> a=(1,2,(4,5))\n>>> b=(1,2,(3,4)) \n>>> a<b
+a) False
+b) True
+c) Error, < operator is not valid for tuples
+d) Error, < operator is valid for tuples but not if there are sub-tuples
+CORRECT OPTION:1
+QUESTION:What is the output of the following piece of code when executed in Python shell? \n>>> a=("Check")*3 \n>>> a
+a) (‘Check’,’Check’,’Check’)
+b) * Operator not valid for tuples
+c) (‘CheckCheckCheck’)
+d) Syntax error
+CORRECT OPTION:3
+QUESTION:What is the output of the following code? \n>>> a=(1,2,3,4) \n>>> del(a[2])
+a) Now, a=(1,2,4)
+b) Now, a=(1,3,4)
+c) Now a=(3,4)
+d) Error as tuple is immutable
+CORRECT OPTION:4
+QUESTION:What is the output of the following code?\n>>> a=(2,3,4)\n>>> sum(a,3)
+a) Too many arguments for sum() method
+b) The method sum() doesn’t exist for tuples
+c) 12
+d) 9
+CORRECT OPTION:3
+QUESTION:Is the following piece of code valid? \n>>> a=(1,2,3,4) \n>>> del a
+a) No because tuple is immutable
+b) Yes, first element in the tuple is deleted
+c) Yes, the entire tuple is deleted
+d) No, invalid syntax for del method
+CORRECT OPTION:3
+QUESTION:What type of data is: a=[(1,1),(2,4),(3,9)]?
+a) Array of tuples
+b) List of tuples
+c) Tuples of lists
+d) Invalid type
+CORRECT OPTION:2
+QUESTION:What is the output of the following piece of code?\n>>> a=(0,1,2,3,4) \n>>> b=slice(0,2) \n>>> a[b]
+a) Invalid syntax for slicing
+b) [0,2]
+c) (0,1)
+d) (0,2)
+CORRECT OPTION:3
+QUESTION:Is the following piece of code valid? \n>>> a=(1,2,3) \n>>> b=('A','B','C') \n>>> c=zip(a,b)
+a) Yes, c will be ((1,2,3),(‘A’,’B’,’C’))
+b) Yes, c will be ((1,2,3),(‘A’,’B’,’C’))
+c) No because tuples are immutable
+d) No because the syntax for zip function isn’t valid
+CORRECT OPTION:1

@@ -1,6 +1,6 @@
-revision_tour2
-function
-revision_tour 1
-MODULE_BASED
 Revision_Tour_Test_1
 Revision_Tour_Test_2
+Revision_Tour_Test_3
+Revision_Tour_Test_4
+Revision_Tour_Test_5
+Function_Test

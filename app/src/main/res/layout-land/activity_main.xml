@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E4DEB8"
+    android:background="#90175DE6"
     android:contentDescription="@string/photo_text"
     tools:context=".MainActivity">
 
@@ -31,7 +31,8 @@
                 android:fontFamily="cursive"
                 android:text="@string/heading_intro"
                 android:textSize="30sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
 
             <ImageView
                 android:id="@+id/imageView"
@@ -62,7 +63,7 @@
                 android:layout_marginBottom="30sp"
                 android:shadowColor="#5C9322"
                 android:text="@string/take_test_label"
-                android:textColor="@android:color/holo_green_dark"
+                android:textColor="#EAD202"
                 android:textColorHighlight="@color/purple_700"
                 android:textSize="20sp"
                 android:textStyle="bold|italic" />

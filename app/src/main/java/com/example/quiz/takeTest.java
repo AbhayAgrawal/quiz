@@ -76,12 +76,12 @@ public class takeTest extends AppCompatActivity {
             RadioButton op3 = findViewById(R.id.op3);
             RadioButton op4 = findViewById(R.id.op4);
             RadioButton op5 = findViewById(R.id.op5);
-            String questext = questions.get(idxno).replace("\\n","\r\n").substring(8).replace("\\t","\t\t");
-            ques.setText(questions.get(idxno).substring(0,8)+(quesnodis+1)+questext);
-            op1.setText(questions.get(idxno+1).substring(2));
-            op2.setText(questions.get(idxno+2).substring(2));
-            op3.setText(questions.get(idxno+3).substring(2));
-            op4.setText(questions.get(idxno+4).substring(2));
+            String questext = questions.get(idxno).replace("\\n","\r\n").substring(9).replace("\\t","\t\t");
+            ques.setText(questions.get(idxno).substring(0,8)+"  "+(quesnodis+1)+":\t"+questext);
+            op1.setText(questions.get(idxno+1).substring(2).replace("\\n","\r\n").replace("\\t","\t\t"));
+            op2.setText(questions.get(idxno+2).substring(2).replace("\\n","\r\n").replace("\\t","\t\t"));
+            op3.setText(questions.get(idxno+3).substring(2).replace("\\n","\r\n").replace("\\t","\t\t"));
+            op4.setText(questions.get(idxno+4).substring(2).replace("\\n","\r\n").replace("\\t","\t\t"));
             op5.setText("I DON'T KNOW THE ANSWER");
             quesnodis++;
 

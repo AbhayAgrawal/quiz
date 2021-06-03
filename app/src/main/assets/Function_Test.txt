@@ -1,0 +1,36 @@
+1. Which of the following is the use of function in python?
+a) Functions are reusable pieces of programs
+b) Functions don’t provide better modularity for your application
+c) you can’t also create your own functions
+d) All of the mentioned
+CORRECT OPTION:1
+2. Which keyword is use for function?
+a) Fun
+b) define
+c) def
+d) Function
+CORRECT OPTION:3
+3. What is the output of the below program?\ndef sayHello():\n\tprint('Hello World!')\nsayHello()\nsayHello()
+a) Hello World! \nHello World!
+b) ‘Hello World!’ \n‘Hello World!’
+c) Hello \nHello
+d) None of the mentioned
+CORRECT OPTION:1
+4. What is the output of the below program?\ndef printMax(a, b):\n\tif a > b: \n\t\tprint(a, 'is maximum') \n\telif a == b: \n\t\tprint(a, 'is equal to', b) \n\telse:\n\t\tprint(b, 'is maximum') \nprintMax(3, 4)
+a) 3
+b) 4
+c) 4 is maximum
+d) None of the mentioned
+CORRECT OPTION:3
+5. What is the output of the below program ?\nx = 50\ndef func(x):\n\tprint('x is', x) \n\tx = 2 \n\tprint('Changed local x to', x)\nfunc(x) \nprint('x is now', x)
+a) x is now 50
+b) x is now 2
+c) x is now 100
+d) None of the mentioned
+CORRECT OPTION:1
+6. What is the output of the below program?\nx = 50 \ndef func(): \n\tglobal x \n\tprint('x is', x) \n\tx = 2 \n\tprint('Changed global x to', x) \nfunc() \nprint('Value of x is', x)
+a) x is 50 \nChanged global x to 2 \nValue of x is 50
+b) x is 50 \nChanged global x to 2 \nValue of x is 2
+c) x is 50 \nChanged global x to 50 \nValue of x is 50
+d) None of the mentioned
+CORRECT OPTION:2

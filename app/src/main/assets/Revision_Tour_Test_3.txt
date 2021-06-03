@@ -1,0 +1,96 @@
+QUESTION:What is the output when following statement is executed ?\n>>>"a"+"bc"
+a) a
+b) bc
+c) bca
+d) abc
+CORRECT OPTION:4
+QUESTION:What is the output when following statement is executed ? \n>>>"abcd"[2:]
+a) a
+b) ab
+c) cd
+d) dc
+CORRECT OPTION:3
+QUESTION:The output of executing string.ascii_letters can also be achieved by:
+a) string.ascii_lowercase_string.digits
+b) string.ascii_lowercase+string.ascii_upercase
+c) string.letters
+d) string.lowercase_string.upercase
+CORRECT OPTION:2
+4. What is the output when following code is executed ?\n>>> str1 = 'hello'\n>>> str2 = ','\n>>> str3 = 'world'\n>>> str1[-1:]
+a) olleh
+b) hello
+c) h
+d) o
+CORRECT OPTION:4
+QUESTION:What arithmetic operators cannot be used with strings ?
+a) +
+b) *
+c) –
+d) All of the mentioned
+CORRECT OPTION:3
+QUESTION:What is the output when following code is executed ?\n>>>print r"\nhello"\nThe output is
+a) a new line and hello
+b) \nhello
+c) the letter r and then hello
+d) error
+CORRECT OPTION:2
+QUESTION:What is the output when following statement is executed ?\n>>>print('new' 'line')
+a) Error
+b) Output equivalent to print ‘new\nline’
+c) newline
+d) new line
+CORRECT OPTION:3
+QUESTION:What is the output when following statement is executed ? \n>>> print(‘x\97\x98’)
+a) Error
+b) 97\n98
+c) x\97
+d) \x97\x98
+CORRECT OPTION:3
+QUESTION:What is the output when following code is executed ?\n>>>str1="helloworld"\n>>>str1[::-1]
+a) dlrowolleh
+b) hello
+c) world
+d) helloworld
+CORRECT OPTION:1
+QUESTION:print(0xA + 0xB + 0xC) :
+a) 0xA0xB0xC
+b) Error
+c) 0x22
+d) 33
+CORRECT OPTION:4
+QUESTION:What is the output of the following?\nprint("xyyzxyzxzxyy".count('yy'))
+a) 2
+b) 0
+c) error
+d) none of the mentioned
+CORRECT OPTION:1
+QUESTION:What is the output of the following? \nprint("xyyzxyzxzxyy".count('yy', 1))
+a) 2
+b) 0
+c) 1
+d) none of the mentioned
+CORRECT OPTION:1
+QUESTION:What is the output of the following? \nprint("xyyzxyzxzxyy".count('yy', 2))
+a) 2
+b) 0
+c) 1
+d) none of the mentioned
+CORRECT OPTION:3
+QUESTION:What is the output of the following? \nprint("xyyzxyzxzxyy".count('xyy', 0, 100))
+a) 2
+b) 0
+c) 1
+d) error
+CORRECT OPTION:1
+QUESTION:What is the output of the following?\nprint("xyyzxyzxzxyy".count('xyy', 2, 11))
+a) 2
+b) 0
+c) 1
+d) error
+CORRECT OPTION:2
+QUESTION:What is the output of the following? \nprint("xyyzxyzxzxyy".count('xyy', -10, -1))
+a) 2
+b) 0
+c) 1
+d) error
+CORRECT OPTION:2
